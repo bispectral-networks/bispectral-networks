@@ -29,6 +29,7 @@ If your machine doesn't have wget, follow these steps:
 3. Run:
     ```
     unzip datasets.zip
+    rm -r datasets.zip
     ```
 
 ## Training
@@ -60,9 +61,6 @@ The pre-trained models are included in the repo, in the following locations:
 
 ```
 logs/rotation_model/
-```
-
-```
 logs/translation_model/
 ```
 
